@@ -240,7 +240,7 @@
 											<br>▪ Devised a custom test rig to simulate the vehicle dynamics and tune the CVT. The testing results were compared with the
 											simulation results based on the readings provided by the sensors on primary and secondary pulley. </blockquote>
 						<iframe width="500" height="320"
-							src="https://www.youtube.com/watch?v=Mji2uMskZ-s&t=3s?autoplay=1&mute=1&loop=1">
+							src="https://www.youtube.com/embed/Mji2uMskZ-s?autoplay=1&mute=1&loop=1">
 							</iframe>
 									
 						<!-- Post -->
@@ -268,7 +268,7 @@
 										<li><a href="https://github.com/amithachari/ECE484_Final_Project" ></a></li>
 									</ul>
 									<ul class="stats">
-										<li> ROS | Python | C++ </li>
+										<li> Pycharm | Python | MATLAB </li>
 									</ul>
 								</footer>
 							</article>
@@ -278,8 +278,8 @@
 						<article class="post">
 							<header>
 								<div class="title">
-									<h2 id="Autonomous"><a href="single.html">Autonomous Pipeline</a></h2>
-									<p>Pipeline containing perception, decision making and low-level PD control modules</p>
+									<h2 id="Autonomous"><a href="single.html">Simultaneous Localization and Mapping (SLAM)</a></h2>
+									<p>Comparative Analysis of Lio-Sam and Lego-Loam SLAM Techniques </p>
 								</div>
 								<div class="meta">
 									<time class="published" datetime="2015-11-01">Jan 2022 - May 2022</time>
@@ -288,10 +288,9 @@
 							</header>
 							<!-- <a href="single.html" class="image featured"><img src="images/pic01.jpg" alt="" /></a> -->
 							</iframe>
-							<p>▪ Integrated autonomous agent pipeline containing perception, decision making and low-level PD control modules (track steering
-								angle and velocity) for the agent to perform lane tracking on a racetrack while avoiding obstacles (other stationary vehicles).
-								<br>▪ Formulated decision module to return reference velocity, modified lateral error, and lane heading error, based on current state
-								(GPS), obstacle distance (LiDAR), and lateral error & lane heading error - computed in the lane detection module (Camera). 
+							<p>▪ Conducted a comprehensive comparative analysis of LiDAR-based 3D mapping techniques: LeGO-LOAM and LIO-SAM
+								<br>▪ Compared trajectories with ground truth in simulation using Root mean square error and Absolute trajectory error metrics in Python
+								<br>▪ Assessed RMSE and ATE values to evaluate performance across different environments with TurtleBot simulations in Gazebo environments
 								 </p>
 							<footer>
 								<ul class="actions">
@@ -307,30 +306,65 @@
 						<article class="post">
 							<header>
 								<div class="title">
-									<h2 id="Filtering"><a href="single.html">Filtering and Localization - Monte Carlo Localization (MCL) </a></h2>
-									<p>Implemented passive MCL localization to estimate position of a moving vehicle</p>
+									<h2 id="Filtering"><a href="assets\Project_UR5Robot.pdf">UR5 Robot Trajectory Planning </a></h2>
+									<p>UR5 Robot with End-Effector following a circular trajectory in Task Space</p>
 								</div>
 								<div class="meta">
-									<time class="published" datetime="2015-11-01">Feb 2022 - April 2022</time>
-									<a href="https://github.com/amithachari/Filtering_and_Localization" class="author"><span class="name">GitHub</span><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" /></a>
+									<time class="published" datetime="2015-11-01">March 2024 - April 2024</time>
+									<a href="https://github.com/ganeshkumar-cr/UR5-Robot.git" class="author"><span class="name">GitHub</span><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" /></a>
 								</div>
 							</header>
 							<!-- <a href="single.html" class="image featured"><img src="images/pic01.jpg" alt="" /></a> -->
 							<iframe width="600" height="400"
-							src="https://www.youtube.com/embed/AAfQPT1FK_Y?autoplay=1&mute=1&loop=1">
+							src="https://www.youtube.com/embed/K5xsbbrtR0U?autoplay=1&mute=1&loop=1">
 							</iframe>
-							<p>▪ Implemented passive MCL localization to estimate position of a moving vehicle using LiDAR measurements.
-								 <br>▪ Studied parameters namely sensor models (4 & 8 directions), number of particles and sensor limits to detect obstacle in range. 
+							<p>▪ Investigated the UR-5 robot's forward and inverse kinematics using Denavit-Hartenberg parameters and developed a smooth circular trajectory for its end-effector with precise joint angle calculations using a Newton’s method-based solver in MATLAB.
+								 <br>▪ Created a real-time 3D MATLAB animation to simulate the UR-5’s motion along the defined circular path, ensuring accurate positioning and joint configurations through the transformation matrix and Jacobian matrix.
+								 <br>▪ Generated joint angle configurations for each waypoint and confirmed their accuracy with visual stick-figure representations, demonstrating effective task-space trajectory generation and motion control.
+								 <br>▪ Applied DH parameters to model the UR-5’s kinematics and used an iterative inverse kinematics solver to minimize positional errors and ensure precise end-effector movement.
 								</p>
 							<footer>
 								<ul class="actions">
 									<li><a href="https://github.com/amithachari/Filtering_and_Localization" ></a></li>
 								</ul>
 								<ul class="stats">
-									<li> ROS | Python | Gazebo | RViz </li>
+									<li> SolidWorks | MATLAB </li>
 								</ul>
 							</footer>
 						</article>
+
+						<!-- Post3 -->
+						<article class="post">
+							<header>
+								<div class="title">
+									<h2 id="Filtering"><a href="assets\Project_Exoskeleton.pdf">Exoskeleton for Assisted Stair Climb </a></h2>
+									<p>Implemented passive MCL localization to estimate position of a moving vehicle</p>
+								</div>
+								<div class="meta">
+									<time class="published" datetime="2015-11-01">Feb 2024 - March 2024</time>
+									<a href="https://github.com/amithachari/Filtering_and_Localization" class="author"><span class="name">GitHub</span><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" /></a>
+								</div>
+							</header>
+							<!-- <a href="single.html" class="image featured"><img src="images/pic01.jpg" alt="" /></a> -->
+							<iframe width="600" height="400"
+							src="https://www.youtube.com/embed/AVlcF4LC6VY?autoplay=1&mute=1&loop=1">
+							</iframe>
+							<p>▪ Developed a passive 3D-printed exoskeleton for assisted stair climbing with mobility analysis based on Grubler’s equation
+								 <br>▪ SConducted kinematic analysis using the Newton-Raphson method in MATLAB, validating the accuracy of analytical method with 
+								 results of SolidWorks
+								 <br>▪ Designed using torsion springs and levers to assist the elderly and those with lower limb weaknesses, effectively reducing stress
+								 
+								</p>
+							<footer>
+								<ul class="actions">
+									<li><a href="https://github.com/amithachari/Filtering_and_Localization" ></a></li>
+								</ul>
+								<ul class="stats">
+									<li> SolidWorks | MATLAB | Catia V5 </li>
+								</ul>
+							</footer>
+						</article>
+
 
 						<!-- Post4 -->
 						<article class="post">
@@ -356,66 +390,11 @@
 									<li><a href="https://github.com/amithachari/ME446_Robot_Dynamics_and_Control_lab" ></a></li>
 								</ul>
 								<ul class="stats">
-									<li> C | MATLAB </li>
+									<li> SolidWorks | MATLAB </li>
 								</ul>
 							</footer>
 						</article>
 
-						<!-- Post5 -->
-						<article class="post">
-							<header>
-								<div class="title">
-									<h2 id="Robust"><a href="single.html">Robust Controllers: Comparative Analysis (RSLQR & H-infinity controller) </a></h2>
-									<p>RSLQR Controller & H-Infinity Controller to command acceleration (Az) for an aircraft</p>
-								</div>
-								<div class="meta">
-									<time class="published" datetime="2015-11-01">Oct 2021 - Feb 2022</time>
-									<a href="https://github.com/amithachari/Robust-Controllers-RSLQR-H-infinity-controller" class="author"><span class="name">GitHub</span><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" /></a>
-								</div>
-							</header>
-							<!-- <a href="single.html" class="image featured"><img src="images/pic01.jpg" alt="" /></a> -->
-							<p>▪ Designed an RSLQR Controller to command acceleration (Az) for an aircraft using state feedback. The design point was
-								identified by analyzing LQR charts, and the robustness was validated using the small gain theorem.<br>▪ The results were compared to those of an H-infinity state feedback controller designed with gamma iteration to control Az.  </p>
-							<footer>
-								<ul class="actions">
-									<li><a href="https://github.com/amithachari/Robust-Controllers-RSLQR-H-infinity-controller" ></a></li>
-								</ul>
-								<ul class="stats">
-									<li> MATLAB </li>
-								</ul>
-							</footer>
-						</article>
-
-						<!-- Post11 -->
-						<article class="post">
-							<header>
-								<div class="title">
-									<h2 id="Safety"><a href="single.html">Hidden Markov Model</a></h2>
-									<p>Implementation of part of speech (POS) tagging using an HMM model</p>
-								</div>
-								<div class="meta">
-									<time class="published" datetime="2015-11-01">Jan 2022 - Feb 2022</time>
-									<a href="https://github.com/amithachari/HMM_POS_Tagging.git" class="author"><span class="name">GitHub</span><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" /></a>
-								</div>
-							</header>
-							<!-- <a href="single.html" class="image featured"><img src="images/pic01.jpg" alt="" /></a> -->
-							<iframe width="600" height="400"
-							src="images/MP3/HMM.png">
-							</iframe>
-							<p>▪ Implemented a Hidden Markov Model (HMM) for part-of-speech (POS) tagging. <br> 
-							▪ Used the Viterbi algorithm to decode the HMM and assign POS tags to words. <br>
-							▪ Used Laplace smoothing to improve the accuracy of the POS tagger on unseen words. <br>
-							▪ Obtained an overall accuracy of 95.5% on the Brown development dataset. <br>
-							▪ Beat the baseline POS tagger on both overall accuracy and unseen word accuracy.
-							<footer>
-								<ul class="actions">
-									<li><a href="https://github.com/amithachari/HMM_POS_Tagging.git"></a></li>
-								</ul>
-								<ul class="stats">
-									<li> Python | AI | Probability | Hidden Markov Models </li>
-								</ul>
-							</footer>
-						</article>
 
 						<!-- Post -->
 						
