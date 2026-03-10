@@ -3609,3 +3609,16 @@ input, select, textarea {
 			}
 
 		}
+
+.meta {
+	text-align: right;
+}
+
+.company-logo-wrapper {
+	margin-top: 12px;
+}
+
+.company-logo-wrapper img {
+	width: 130px;
+	height: auto;
+}
